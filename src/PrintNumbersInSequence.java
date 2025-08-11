@@ -12,7 +12,7 @@ public class PrintNumbersInSequence {
                 synchronized (this) {
                     if (current > n)
                         break;
-                    System.out.print(current + " ");
+                    System.out.print("out put value : " + current + " ");
                     current++;
                 }
             }
